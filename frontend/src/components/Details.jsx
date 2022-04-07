@@ -2,14 +2,14 @@ import React from 'react'
 
 function Details() {
     return (
-        <div class="details">
-            <div class="txt">5 items left</div>
-            <div class="filter">
-                <button class="all filter-selected">All</button>
-                <button class="active">Active</button>
-                <button class="completed">Completed</button>
+        <div className="details">
+            <div className="txt">5 items left</div>
+            <div className="filter">
+                <button className="all filter-selected">All</button>
+                <button className="active">Active</button>
+                <button className="completed">Completed</button>
             </div>
-            <div class="clear">
+            <div className="clear">
                 <button>Clear Completed</button>
             </div>
         </div>
